@@ -10,9 +10,7 @@
 
 %r：可解析整型、浮点型、字符型，但需要注意和%s的区别，会打印出所有的字符：
 
-
-
-
+![02.jpg](https://github.com/ChaoZeyi/python/blob/master/LearnPythonTheHardWay/photos/02.jpg?raw=true)
 
 #### 单引号、双引号、三引号
 
@@ -29,6 +27,8 @@ world,
 hahaha."""
 
 其中，"""......."""，'''....'''，都可用于多行注释
+
+
 
 
 
