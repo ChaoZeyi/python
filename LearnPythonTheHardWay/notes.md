@@ -28,11 +28,25 @@ hahaha."""
 
 其中，"""......."""，'''....'''，都可用于多行注释
 
+#### 逗号的使用
 
+print语句输出时，默认的会在后面加上换行，但加了逗号之后，换行就变成了空格：  
 
+![03.jpg](https://github.com/ChaoZeyi/python/blob/master/LearnPythonTheHardWay/photos/03.jpg?raw=true)
 
+#### 转义字符
 
+\n：换行
 
+\t：下一制表符
+
+\'：表示'
+
+\"：表示"
+
+#### 输入输出
+
+输入
 
 
 
