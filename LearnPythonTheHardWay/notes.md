@@ -46,7 +46,21 @@ print语句输出时，默认的会在后面加上换行，但加了逗号之后
 
 #### 输入输出
 
-输入
+输入：raw_input()，返回值为字符串型
+
+给命令行脚本传递变量：
+
+![04.jpg](https://github.com/ChaoZeyi/python/blob/master/LearnPythonTheHardWay/photos/04.jpg?raw=true)
+
+![05.jpg](https://github.com/ChaoZeyi/python/blob/master/LearnPythonTheHardWay/photos/05.jpg?raw=true)
+
+`argv`是所谓的“参数变量(argument variable)”，这个变量包含了你传递给 Python 的参数。第 3 行将 `argv` “解包(unpack)”，与其将所有参数放到同一个变量下面，我们将每个参数赋予一个变量名： `script`, `first`, `second`, 以及 `third`，将所有的参数依次赋予左边的变量名。
+
+#### 文档生成工具
+
+pydoc：只能在命令行中使用，IPython、script中都不行；
+
+
 
 
 
