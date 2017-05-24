@@ -46,7 +46,7 @@ print语句输出时，默认的会在后面加上换行，但加了逗号之后
 
 #### 输入输出
 
-输入：raw_input()，返回值为字符串型
+输入：raw_input()，返回值为字符串型（%r格式）
 
 给命令行脚本传递变量：
 
@@ -75,6 +75,12 @@ pydoc：只能在命令行中使用，IPython、script中都不行；![06.jpg](h
 `4` truncate：清空文件
 
 `5` close：关闭文件
+
+![08.jpg](https://github.com/ChaoZeyi/python/blob/master/LearnPythonTheHardWay/photos/08.jpg?raw=true)
+
+**需要注意的：** 当需要对文件对象进行操作时，必须以写的形式打开文件：open(..，'w')；用write()向文件写入内容时，没有自带换行，如需换行，需要自己加上’‘\n''；默认的write是覆盖写，就算没有对文件清空，最后得到的文件也只有write进去的内容；如果需要追加写，要写追加的形式打开文件：open(..，'a')，同样可以进行清空、写入等一些列操作。
+
+
 
 
 
