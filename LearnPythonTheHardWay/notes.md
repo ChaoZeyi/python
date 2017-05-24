@@ -58,7 +58,7 @@ print语句输出时，默认的会在后面加上换行，但加了逗号之后
 
 #### 文档生成工具
 
-pydoc：只能在命令行中使用，IPython、script中都不行；
+pydoc：只能在命令行中使用，IPython、script中都不行；![06.jpg](https://github.com/ChaoZeyi/python/blob/master/LearnPythonTheHardWay/photos/06.jpg?raw=true)
 
 
 
