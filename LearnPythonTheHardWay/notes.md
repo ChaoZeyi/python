@@ -88,7 +88,15 @@ pydoc：只能在命令行中使用，IPython、script中都不行；![06.jpg](h
 
 ![09.jpg](https://github.com/ChaoZeyi/python/blob/master/LearnPythonTheHardWay/photos/09.jpg?raw=true)
 
+编译：需要调用其他py文件的函数时，需要import ***（没有.py后缀），此时相当于.py文件编译成.pyc文件，调用方法为：文件名.函数名。
 
+内置sorted()函数，如果待排序的是字符串，则默认使用每个字符串第一个字母的ASCII码值来排序。
+
+#### 快捷键
+
+ctrl+d：退出Python环境
+
+ctrl+c：退出当前运行程序
 
 
 
