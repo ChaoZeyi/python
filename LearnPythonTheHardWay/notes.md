@@ -82,7 +82,11 @@ pydoc：只能在命令行中使用，IPython、script中都不行；![06.jpg](h
 
 #### 函数
 
-函数有多个输入参数时，可以使用*args接收，然后再进行解包，类似于命令行脚本的argv
+函数有多个输入参数时，可以使用*args接收，然后再进行解包，类似于命令行脚本的argv：
+
+![09.jpg](https://github.com/ChaoZeyi/python/blob/master/LearnPythonTheHardWay/photos/09.jpg?raw=true)
+
+
 
 
 
