@@ -30,7 +30,7 @@ hahaha."""
 
 #### 逗号的使用
 
-print语句输出时，默认的会在后面加上换行，但加了逗号之后，换行就变成了空格：  
+print语句输出时，默认的会在后面加上换行，跳到下一行，但加了逗号之后，换行就变成了空格：  
 
 ![03.jpg](https://github.com/ChaoZeyi/python/blob/master/LearnPythonTheHardWay/photos/03.jpg?raw=true)
 
@@ -79,6 +79,8 @@ pydoc：只能在命令行中使用，IPython、script中都不行；![06.jpg](h
 ![08.jpg](https://github.com/ChaoZeyi/python/blob/master/LearnPythonTheHardWay/photos/08.jpg?raw=true)
 
 **需要注意的：** 当需要对文件对象进行操作时，必须以写的形式打开文件：open(..，'w')；用write()向文件写入内容时，没有自带换行，如需换行，需要自己加上’‘\n''；默认的write是覆盖写，就算没有对文件清空，最后得到的文件也只有write进去的内容；如果需要追加写，要用追加的形式打开文件：open(..，'a')，同样可以进行清空、写入等一些列操作。
+
+在读写文件时，有一个文件操作指针，对文件read()完一遍之后，该指针已经处于文件末了，如果再次进行read(),则得到空，此时需要把该指针移至文件起始位置，用seek(0)函数。类似的，当用w形式写文件时，文件操作指针位于文件末尾，而以a形式写文件时，文件操作指针位于文件起始位置。
 
 #### 函数
 
