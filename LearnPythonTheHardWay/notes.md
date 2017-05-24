@@ -48,6 +48,46 @@ print语句输出时，默认的会在后面加上换行，跳到下一行，但
 
 输入：raw_input()，返回值为字符串型（%r格式）
 
+**接收raw_input方法后，判断接收到的字符串是否为数字**
+
+str = raw_input("please input the number:")
+str.isalnum() 所有字符都是数字或者字母
+str.isalpha() 所有字符都是字母
+str.isdigit() 所有字符都是数字
+str.islower() 所有字符都是小写
+str.isupper() 所有字符都是大写
+str.istitle() 所有单词都是首字母大写，像标题
+str.isspace() 所有字符都是空白字符、\t、\n、\r
+
+上述的主要是针对整型的数字，但是对于浮点数来说就不适用了，那么浮点数怎么判断呢，一直在纠结这个问题，为什么非要区分整型和浮点数呢，既然都是参与运算的，全部适用浮点数不是一样吗，在得到结果后，直接转换为int型不是一样吗，为什么非要纠结在前期去判断是否整型或者浮点数呢，有了这样的思路，下面就好做了，例如：
+我们可以通过异常来判断，异常语法如下：
+try:
+{statements}
+exception: {Exception Objects}
+{statements}
+
+str = raw_input("please input the number:")
+try:
+f = float(str)
+exception ValueError:
+print("输入的不是数字！")
+
+还有一种纯粹判断是否为浮点数的方法，使用正则表达式：
+
+1. 引用re正则模块
+   import re
+   float_number = str(input("Please input the number:"))
+2. 调用正则
+   value = re.compile(r'^[-+]?[0-9]+.[0-9]+$')       r表示以%r原生字符串形式，不考虑字符的转义
+   result = value.match(float_number)
+   if result:
+   print "Number is a float."
+   else:
+   print "Number is not a float."
+3. 关于这个正则表达式，解释一下：
+   ^[-+]?[0-9]+.[0-9]+$
+   ^表示以这个字符开头，也就是以[-+]开头，[-+]表示字符-或者+之一， ?表示0个或1个，也就是说符号是可选的。 同理[0-9]表示0到9的一个数字，+表示1个或多个，也就是整数部分。 .表示的是小数点，\是转义字符因为.是特殊符号（匹配任意单个除\r\n之外的字符）， 所以需要转义。 小数部分同理，$表示字符串以此结尾
+
 给命令行脚本传递变量：
 
 ![04.jpg](https://github.com/ChaoZeyi/python/blob/master/LearnPythonTheHardWay/photos/04.jpg?raw=true)
@@ -98,11 +138,78 @@ ctrl+d：退出Python环境
 
 ctrl+c：退出当前运行程序
 
+####关键字
 
+| 关键字      | 作用                                       |
+| -------- | ---------------------------------------- |
+| and      | 逻辑与操作                                    |
+| del      | 用于List列表操作，删除一个或者连续几个元素，del a[0]，del a   |
+| from     | 用于导入相应的模块，from ... import                |
+| not      | 逻辑非                                      |
+| while    | while循环                                  |
+| as       | 与其他关键字合用，import xx as xxx                |
+| elif     | 和if配合使用                                  |
+| global   | 定义全局变量（想要给全局变量赋值，先global一下）              |
+| or       | 逻辑或                                      |
+| with     | 和as一起使用                                  |
+| assert   | 表示断言                                     |
+| else     | 与if一起使用                                  |
+| if       | if语句选择分支                                 |
+| pass     | 意思就是什么都不做                                |
+| yield    | 类似return，它返回的是一个生成器                      |
+| break    | 终止循环                                     |
+| except   | 和try一起使用，用来捕获异常                          |
+| import   | 用来导入模块                                   |
+| print    | 打印                                       |
+| class    | 定义类                                      |
+| exec     | 用来执行存储在字符串或者文件中的python语句                 |
+| in       | 查找列表中是否包含某个元素，或者字符串a是否包含字符串b             |
+| raise    | 显示地引发异常                                  |
+| continue | 跳过continue后面循环块中的语句，继续执行下一次循环            |
+| finally  | 看到finally语句，必然执行finally语句的代码             |
+| is       | python中的对象包含三要素：id、type、value。id用来唯一标识一个对象，type标识对象的类型，value是对象的值。is判断的是a对象是否就是b对象，是用id来判断的，==判断的是a对象的值是都和b对象的值相等，是通过value来判断的 |
+| return   | 跳出函数，返回值                                 |
+| def      | 定义方法                                     |
+| for      | 循环                                       |
+| lambda   | 匿名函数                                     |
+| try      | try except处理异常                           |
 
+#### 数据类型
 
+| 数据类型   | 意义   |
+| ------ | ---- |
+| True   | 真    |
+| False  | 假    |
+| None   | 空    |
+| string | 字符串  |
+| number | 数字   |
+| float  | 浮点   |
+| list   | 列表   |
 
+#### 操作符号
 
-
-
-
+| 操作符号 | 意义                                  |
+| ---- | ----------------------------------- |
+| +    | 加                                   |
+| -    | 减                                   |
+| *    | 乘                                   |
+| **   | 幂 2**3 = 8                          |
+| /    | 除                                   |
+| //   | 取整除，9//2=4，9.0//2.0=4.0，9.0/2.0=4.5 |
+| %    | 取模                                  |
+| <    | 小于                                  |
+| >    | 大于                                  |
+| <=   | 小于等于                                |
+| >=   | 大于等于                                |
+| ==   | 等于                                  |
+| !=   | 不等于                                 |
+| <>   | 不等于，类似!=                            |
+| @    | 函数修饰符                               |
+| ;    | 用于在一行中书写多条语句                        |
+| +=   | a= a+b                              |
+| -=   | a= a-b                              |
+| *=   | a*=b a=a*b                          |
+| /=   | a=a/b                               |
+| //=  | a=a//b                              |
+| %=   | a=a%b                               |
+| **=  | a=a**b                              |
