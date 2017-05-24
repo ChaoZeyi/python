@@ -213,3 +213,32 @@ ctrl+c：退出当前运行程序
 | //=  | a=a//b                              |
 | %=   | a=a%b                               |
 | **=  | a=a**b                              |
+
+#### 数据结构
+
+- #### List（列表）  可当做是list
+
+  [  ,  ,  ,]
+
+  pop
+
+  append
+
+  del
+
+  join
+
+  len(list)
+
+
+- #### dict（字典） 可当做是HashMap
+
+  a = {  key : value , key : value ,}
+
+  del
+
+  items()
+
+  for key in a （只能通过key来遍历，不能通过value）
+
+- #### turple（元祖）  可当做是数组
