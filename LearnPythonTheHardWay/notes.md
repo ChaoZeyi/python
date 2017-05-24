@@ -60,7 +60,21 @@ print语句输出时，默认的会在后面加上换行，但加了逗号之后
 
 pydoc：只能在命令行中使用，IPython、script中都不行；![06.jpg](https://github.com/ChaoZeyi/python/blob/master/LearnPythonTheHardWay/photos/06.jpg?raw=true)
 
+#### 读写文件
 
+![07.jpg](https://github.com/ChaoZeyi/python/blob/master/LearnPythonTheHardWay/photos/07.jpg?raw=true)
+
+处理完文件后，需要将其关闭：txt.close()
+
+`1` read：读取文件内容，返回的是一个字符串
+
+`2` readline：读取文件内容的一行，返回的是一个字符串
+
+`3` write(stuff)：将stuff（通常是字符串）写入文件
+
+`4` truncate：清空文件
+
+`5` close：关闭文件
 
 
 
