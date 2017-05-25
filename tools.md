@@ -18,11 +18,50 @@ http://www.jianshu.com/p/9c8cd894d22d
 
 选择github仓库地址
 
-然后进行安装，默认安装路径为C:\Users\Administrator\.atom\packages
+![12.jpg](https://github.com/ChaoZeyi/python/blob/master/LearnPythonTheHardWay/photos/12.jpg?raw=true)
 
+然后进行安装，默认安装路径为C:\Users\Administrator\\.atom\packages
 
+![13.jpg](https://github.com/ChaoZeyi/python/blob/master/LearnPythonTheHardWay/photos/13.jpg?raw=true)
+
+需要安装的有如下几种包：
+
+- linter    （编辑时若有语法错误，会有黄色警告或者红色报错信息）
+
+- git-plus   （更方便的和git交互）
+
+- autocomplete-python    （自动补全）
+
+- highlight-selected        （选择部分高亮）
+
+- highlight-line      （整行高亮）
+
+- markdown-preview        （markdown的预览）
+
+- script       
+
+- ask-stack   （直接跳转，在stack-flow提问）
+
+- Hydrogens(ipython,pip,jupyter)      （单步执行，需要先安装pip、ipython、jupyter）
+
+  > 安装pip：https://pypi.python.org/pypi/pip#downloads
+  >
+  > 然后在解压之后的文件目录下执行python setup.py install
+  >
+  > 步骤参考：http://www.cnblogs.com/yuanzm/p/4089856.html
+  >
+  > 不需要配置环境
+
+- minimap      (小窗图)
 
 #### pydev+myEclipse
 
+> 一直无法在eclipse商店在线下载
+>
+> 采用离线下载时，各种因为python2.x，python3.x版本问题，安装失败
+
 ### pyCharm
 
+> 安装成功
+>
+> 下载地址：https://www.jetbrains.com/pycharm/download/#section=windows
