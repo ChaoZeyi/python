@@ -12,7 +12,9 @@
 
 http://www.jianshu.com/p/9c8cd894d22d
 
-其中最重要的是要找到你所要安装包的url地址，一般是github地址，可以在https://atom.io/packages搜索，例如，当你需要下载autocomplete-python的时候：
+其中最重要的是要找到你所要安装包的url地址，一般是github地址，可以在https://atom.io/packages
+
+搜索，例如，当你需要下载autocomplete-python的时候：
 
 ![11.jpg](https://github.com/ChaoZeyi/python/blob/master/LearnPythonTheHardWay/photos/11.jpg?raw=true)
 
@@ -59,7 +61,9 @@ http://www.jianshu.com/p/9c8cd894d22d
   >
   > error: Microsoft Visual C++ 9.0 is required. Get it from http://aka.ms/vcpython27
   >
-  > 解决方法：在https://www.microsoft.com/en-us/download/details.aspx?id=44266下载安装
+  > 解决方法：在https://www.microsoft.com/en-us/download/details.aspx?id=44266
+  >
+  > 下载安装
   >
   > ![15.png](https://github.com/ChaoZeyi/python/blob/master/LearnPythonTheHardWay/photos/15.png?raw=true)
   >
