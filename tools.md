@@ -8,7 +8,7 @@
 
 由于没有翻墙，无法在atom本地的安装库安装，采用的方法是：
 
-安装node.js，使用其中的分支命令npm：npm install url
+安装node.js，使用其中的分支命令apm：npm install url
 
 http://www.jianshu.com/p/9c8cd894d22d
 
@@ -53,6 +53,12 @@ http://www.jianshu.com/p/9c8cd894d22d
   > 不需要配置环境
 
 - minimap      (小窗图)
+
+- Platformio Ide Terminal      （终端，命令行执行）
+
+  > 解决无法下载安装的问题
+  >
+  > https://www.thjiang.com/2016/07/17/atom-%E6%97%A0%E6%B3%95%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/
 
 #### pydev+myEclipse
 

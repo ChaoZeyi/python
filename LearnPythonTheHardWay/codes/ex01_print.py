@@ -7,6 +7,5 @@ Created on Sun May 21 14:04:32 2017
 
 #输出练习
 print "hello world!"
+
 print "hello python!"
-
-

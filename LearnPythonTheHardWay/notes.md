@@ -241,6 +241,8 @@ ctrl+c：退出当前运行程序
 
   a = {  key : value , key : value ,}
 
+  无序的对象集合，只能通过Key来获取
+
   del
 
   items()
