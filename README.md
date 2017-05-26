@@ -14,4 +14,3 @@ http://old.sebug.net/paper/books/LearnPythonTheHardWay/index.html
 菜鸟教程：
 
 http://www.runoob.com/python/python-tutorial.html
-
