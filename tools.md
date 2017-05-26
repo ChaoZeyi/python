@@ -99,6 +99,8 @@ http://www.jianshu.com/p/9c8cd894d22d
 
 ### 解决无法在线下载package的问题
 
+解决方法：
+
 https://www.thjiang.com/2016/07/17/atom-%E6%97%A0%E6%B3%95%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/ 
 
 #### pydev+myEclipse
