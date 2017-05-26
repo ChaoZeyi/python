@@ -6,6 +6,8 @@ Created on Sun May 21 14:04:32 2017
 '''
 
 #输出练习
+a = 1
 print "hello world!"
-
+a += 1
 print "hello python!"
+print a

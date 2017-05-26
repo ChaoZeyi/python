@@ -8,7 +8,7 @@
 
 由于没有翻墙，无法在atom本地的安装库安装，采用的方法是：
 
-安装node.js，使用其中的分支命令apm：npm install url
+安装node.js，使用其中的分支命令apm：apm install url
 
 http://www.jianshu.com/p/9c8cd894d22d
 
@@ -48,9 +48,20 @@ http://www.jianshu.com/p/9c8cd894d22d
   >
   > 然后在解压之后的文件目录下执行python setup.py install
   >
-  > 步骤参考：http://www.cnblogs.com/yuanzm/p/4089856.html
+  > 步骤参考：http://www.cnblogs.com/yuanzm/p/4089856.html  
+  > 可能会出现如下情况： pip不是内部或外部命令，也不是可执行程序  
+  > 需要配置环境变量，步骤参考：  
+  > http://www.crifan.com/run_pip_install_django_error_pip_is_not_recognized_as_an_internal_or_external_command_operable_program_or_batch_file/
   >
-  > 不需要配置环境
+  > 安装ipython: pip install ipython，如果直接这样安装会报错，需要 Microsoft Visual C++ 9.0环境：
+  >
+  > error: Microsoft Visual C++ 9.0 is required. Get it from http://aka.ms/vcpython27
+  >
+  > 解决方法：在https://www.microsoft.com/en-us/download/details.aspx?id=44266下载安装
+  >
+  > ​
+
+
 
 - minimap      (小窗图)
 
@@ -58,7 +69,9 @@ http://www.jianshu.com/p/9c8cd894d22d
 
   > 解决无法下载安装的问题
   >
-  > https://www.thjiang.com/2016/07/17/atom-%E6%97%A0%E6%B3%95%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/
+  > https://www.thjiang.com/2016/07/17/atom-%E6%97%A0%E6%B3%95%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/  
+
+
 
 #### pydev+myEclipse
 
