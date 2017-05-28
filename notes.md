@@ -285,3 +285,5 @@ ctrl+c：退出当前运行程序
 >
 > is判断为真时，==判断就一定为真，但反过来，==判断为真时，is判断就不一定为真
 
+![01.jpg](https://github.com/ChaoZeyi/python/blob/master/%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B/photos/01.jpg?raw=true)
+
