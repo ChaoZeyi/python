@@ -107,6 +107,26 @@ http://www.jianshu.com/p/9c8cd894d22d
 
 https://www.thjiang.com/2016/07/17/atom-%E6%97%A0%E6%B3%95%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/
 
+#### 版本不匹配问题
+
+> ```
+> [IPKernelApp] ERROR | Invalid Message
+> Traceback (most recent call last):
+>   File "/home/ubuntu/.virtualenvs/cross/local/lib/python2.7/site-packages/IPython/kernel/zmq/kernelbase.py", line 175, in dispatch_shell
+>     msg = self.session.deserialize(msg, content=True, copy=False)
+>   File "/home/ubuntu/.virtualenvs/cross/local/lib/python2.7/site-packages/IPython/kernel/zmq/session.py", line 836, in deserialize
+>     raise ValueError("Invalid Signature: %r" % signature)
+> ValueError: Invalid Signature: '51a7d95d58ae497bfb01d4d757d6f978585e9a543140d9d71d7d4ec51fdf7ecf'
+> ```
+
+无法连接到本地核，解决方法参考：
+
+https://github.com/bfredl/nvim-ipy/issues/8
+
+主要还是版本的问题，ipython版本和jupyter不匹配，把jupyter更新至最新版本就可以了。
+
+> pip install -U jupyter
+
 ### pydev+myEclipse
 
 > 一直无法在eclipse商店在线下载
