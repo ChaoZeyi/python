@@ -125,6 +125,7 @@ https://github.com/bfredl/nvim-ipy/issues/8
 
 主要还是版本的问题，ipython版本和jupyter不匹配，把jupyter更新至最新版本就可以了。
 
+
 > pip install -U jupyter
 
 ### pydev+myEclipse
