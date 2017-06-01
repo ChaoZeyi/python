@@ -287,3 +287,41 @@ ctrl+c：退出当前运行程序
 
 ![01.jpg](https://github.com/ChaoZeyi/python/blob/master/%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B/photos/01.jpg?raw=true)
 
+python 不支持 switch 语句，所以多个条件判断，只能用 elif 来实现
+
+在atom中，如果存在raw_input()，不能用script来运行，必须用ctrl+alt+shift+enter，或者直接使用命令行，如果用script，会出现堵塞
+
+> random.uniform(a,b)   随机生成给定范围的浮点数，a可以是上限，也可以是下限
+>
+> random.randint(a,b)     随机生成给定范围的整数，a必须是下限（a < b）
+
+#### input()和raw_input()区别
+
+> raw_input()是把用户输入的所有都当做字符串类型（%r）
+>
+> input()接收数字输入时，返回的就是数字类型
+>
+> a = input()
+>
+> 》1 
+>
+> type(a)
+>
+> 》int
+>
+> 而且可以接收表达式，相当于执行了eval()函数
+>
+> a = input()
+>
+> 》1 +2 
+>
+> a = 3
+>
+> 而且当input()接收字符串时，必须使用引号
+>
+> a = input()
+>
+> 》'ab' 
+>
+> a = 'ab'
+
