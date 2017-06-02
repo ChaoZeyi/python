@@ -11,6 +11,6 @@ https://learnpythonthehardway.org/book/preface.html
 
 http://old.sebug.net/paper/books/LearnPythonTheHardWay/index.html
 
-菜鸟教程：
+菜鸟教程(runoob)：
 
 http://www.runoob.com/python/python-tutorial.html

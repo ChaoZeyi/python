@@ -83,3 +83,10 @@ print_globvar()
 set_globvar_to_two()
 print  globvar        # 输出 1
 print_globvar()  # 输出 1，函数内的 globvar 已经是全局变量
+
+
+num = 100
+def func():
+    num += 1
+    print num
+func()
