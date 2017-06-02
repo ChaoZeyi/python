@@ -14,3 +14,7 @@ http://old.sebug.net/paper/books/LearnPythonTheHardWay/index.html
 菜鸟教程(runoob)：
 
 http://www.runoob.com/python/python-tutorial.html
+
+极客学院：
+
+http://wiki.jikexueyuan.com/project/start-learning-python/311.html

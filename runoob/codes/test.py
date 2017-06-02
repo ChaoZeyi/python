@@ -1,6 +1,6 @@
 #  -*- coding: UTF-8 -*-
-from package_python.hello1 import *
-from package_python.hello2 import hello2
+from runoob.codes.package_python.hello1 import *
+from runoob.codes.package_python.hello2 import *
 
 hello_1()
 hello2()
