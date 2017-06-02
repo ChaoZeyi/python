@@ -65,14 +65,21 @@ print(l)
 
 
 globvar = 0
-global globvar
+
 def set_globvar_to_one():
-    #global globvar
+    global globvar
     globvar = 1
+def set_globvar_to_two():
+    # global globvar
+    globvar = 2
 
 def print_globvar():
-    print(globvar)     # 没有使用 global
+    print(globvar)
+
 print_globvar()
 set_globvar_to_one()
 print  globvar        # 输出 1
-print_globvar()      # 输出 1，函数内的 globvar 已经是全局变量
+print_globvar()
+set_globvar_to_two()
+print  globvar        # 输出 1
+print_globvar()  # 输出 1，函数内的 globvar 已经是全局变量
