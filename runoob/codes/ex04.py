@@ -44,6 +44,7 @@ print issubclass(Point1, Point)
 
 
 
+
 class JustCounter(object):
     __secretCount = 0  # 私有变量
     _secretCount = 0
