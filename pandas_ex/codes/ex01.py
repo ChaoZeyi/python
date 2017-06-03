@@ -6,6 +6,7 @@ import numpy as np
 s = Series([1, 23, 'cc', 'whu'], index = [4, 3, 2, 1])
 print s
 print s.values
+
 print type(s.values)
 print s[1]
 s[4] = 2
@@ -22,3 +23,10 @@ f3 = DataFrame(f2, index = [1, 2, 3, 4])
 print f3
 print f3.columns
 print f3["name"][3]
+f3["name"][3] = "yahoo"
+print f3["name"][3]
+f3["delta"] = 100
+print f3
+s3 = Series([50, 60], index = [1, 3])
+f3["delta"] = s3
+print f3

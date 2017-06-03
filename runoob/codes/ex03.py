@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 import os
 # 打开一个文件
-fo = open("runoob/codes/foo.txt", "r")
+fo = open("foo.txt", "r")
 str = fo.read(10);
 print "读取的字符串是 : ", str
 
