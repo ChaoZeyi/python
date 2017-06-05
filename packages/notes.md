@@ -38,5 +38,14 @@ c是一个数组，大小为（N，）
 
 使用索引（loc、iloc）来确定位置，修改对应位置的值。
 
-注意区分内连接和外连接：
+注意区分内连接和外连接：![09.png](https://github.com/ChaoZeyi/python/blob/master/packages/photos/09.png?raw=true)
 
+使用merge进行合并时，有四种连接方式：
+
+inner：内连接
+
+outer：外连接
+
+left：左连接
+
+right：右连接

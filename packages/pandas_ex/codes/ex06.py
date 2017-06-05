@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from pandas import Series, DataFrame
 
-#pandas的合并
+#pandas的合并:concat
 df1 = DataFrame(np.ones((3,4))*0, columns=['a','b','c','d'])
 df2 = DataFrame(np.ones((3,4))*1, columns=['a1','b1','c1','d1'])
 df3 = DataFrame(np.ones((3,4))*2, columns=['a','b','c','d'])

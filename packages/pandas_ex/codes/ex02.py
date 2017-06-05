@@ -4,7 +4,7 @@ import xlrd
 #读取csv文件的问题
 data = pd.read_csv("packages/pandas_ex/codes/test.csv")
 data
-
+data.to_pickle("test.pickle")
 data.shape
 #data.index = ['first','second','third','forth']  改变DataFrame的索引值
 
