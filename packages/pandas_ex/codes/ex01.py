@@ -15,7 +15,8 @@ print s
 
 #DataFrame
 data = {"name":["yahoo","google","facebook"], "marks":[200,400,800], "price":[9, 3, 7]}
-f1 = DataFrame(data)
+data
+f1 = DataFrame(data, index = ['first','second','third'])
 print f1
 f2 = DataFrame(data, columns = ["name", "marks", "price", "delta"])
 print f2
@@ -28,5 +29,8 @@ print f3["name"][3]
 f3["delta"] = 100
 print f3
 s3 = Series([50, 60], index = [1, 3])
+s3
 f3["delta"] = s3
 print f3
+type(f3)
+f3.shape
