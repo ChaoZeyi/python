@@ -20,9 +20,9 @@ c是一个数组，大小为（N，）
 
 可以先通过列索引，得到一个Series类型，再根据0——N-1索引得到对应值。
 
+![07.jpg](https://github.com/ChaoZeyi/python/blob/master/packages/photos/07.jpg?raw=true)
 
-
-可以使用行索引[:]跨越多行，而且需要注意，使用[:]跨越多行时，使用默认行索引时，是一个半开半闭区间，使用自定义索引时，是全闭空间。
+可以使用行索引[:]跨越多行，而且需要注意，使用[:]跨越多行，使用默认行索引时，是一个半开半闭区间，使用自定义索引时，是全闭空间。
 
 ![04.jpg](https://github.com/ChaoZeyi/python/blob/master/packages/photos/04.jpg?raw=true)
 
@@ -30,9 +30,13 @@ c是一个数组，大小为（N，）
 
 - 使用自定义索引（标签）：loc
 
-  ​
+  ![06.jpg](https://github.com/ChaoZeyi/python/blob/master/packages/photos/06.jpg?raw=true)
 
 - 使用默认索引（位置）：iloc
 
+  ![08.jpg](https://github.com/ChaoZeyi/python/blob/master/packages/photos/08.jpg?raw=true)
 
+使用索引（loc、iloc）来确定位置，修改对应位置的值。
+
+注意区分内连接和外连接：
 
