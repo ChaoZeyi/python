@@ -18,3 +18,11 @@ http://www.runoob.com/python/python-tutorial.html
 极客学院：
 
 http://wiki.jikexueyuan.com/project/start-learning-python/311.html
+
+莫烦python：
+
+https://morvanzhou.github.io/
+
+scikit-learn：
+
+http://scikit-learn.org/
