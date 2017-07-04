@@ -12,7 +12,7 @@ c是一个数组，大小为（N，）
 
 ##### DataFrame
 
-对于DataFrame类型数据，可以通过列名作为索引进行访问，但不能通过行的索引访问，不管是默认行索引（0——N-1）还是自定义行索引。
+对于DataFrame类型数据，可以通过列名作为索引进行访问（不能通过默认列索引0——N-1），但不能通过行的索引访问，不管是默认行索引（0——N-1）还是自定义行索引。
 
 ![02.jpg](https://github.com/ChaoZeyi/python/blob/master/packages/photos/02.jpg?raw=true)
 
