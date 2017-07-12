@@ -1,6 +1,6 @@
-## 软件安装
+# 软件安装
 
-### atom
+## atom
 
 下载很方便，直接在官网下载最新版本https://atom.io/
 
@@ -107,7 +107,7 @@ http://www.jianshu.com/p/9c8cd894d22d
 
 https://www.thjiang.com/2016/07/17/atom-%E6%97%A0%E6%B3%95%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/
 
-#### 版本不匹配问题
+### 版本不匹配问题
 
 > ```
 > [IPKernelApp] ERROR | Invalid Message
@@ -128,13 +128,23 @@ https://github.com/bfredl/nvim-ipy/issues/8
 
 > pip install -U jupyter
 
-### pydev+myEclipse
+### 安装.whl文件
+
+> 根据相应的python版本和位数，下载.whl文件
+>
+> [http://www.lfd.uci.edu/~gohlke/pythonlibs/](http://www.lfd.uci.edu/~gohlke/pythonlibs/)
+>
+> 在文件所在目录运行：
+>
+> pip install ######.whl
+
+## pydev+myEclipse
 
 > 一直无法在eclipse商店在线下载
 >
 > 采用离线下载时，各种因为python2.x，python3.x版本问题，安装失败，放弃！
 
-### pyCharm
+## pyCharm
 
 > 安装成功
 >
