@@ -150,4 +150,4 @@ https://github.com/bfredl/nvim-ipy/issues/8
 >
 > 下载地址：https://www.jetbrains.com/pycharm/download/#section=windows
 >
-> 但使用时，速度较慢，一直有点卡，不知是电脑问题还是版本问题，而且和git的兼容性不如atom，故放弃！
+> 界面风格很好，多种主题可选，完美兼容git，并且可以切换多版本python，推荐！
